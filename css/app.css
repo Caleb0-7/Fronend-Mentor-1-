@@ -1,0 +1,125 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;/*1 rem = 10pixeles*/
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+/*contenido letra*/
+   
+body{
+    font-size: 1.4rem;
+   
+    line-height: 2;
+    background-color:  hsl(30, 38%, 92%);
+}
+
+/*globales*/
+p{
+   margin: 0;
+
+}
+h1{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+
+h2{
+    
+    font-family: 'Fraunces', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.contenedor{
+    max-width: 80rem;
+    margin: 0rem auto;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+/*utilidades*/
+
+
+/*grid*/
+
+.principal{
+    margin-top: 10rem;
+    background-color: #fff;
+    border-radius: 3rem;
+}
+
+.principal img{
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+.principal-grid{
+    display: grid;
+    
+    grid-template-columns: repeat(2,1fr);
+    gap: 6rem;
+    
+}
+
+
+
+.principal-contenido{
+   padding-top: 3rem;
+   padding-right: 9rem;
+    
+}
+
+.principal-informacion p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+   
+}
+.principal-precios{
+    display: flex;
+
+}
+.principal-precios :nth-child(1){
+    font-family: 'Fraunces', sans-serif;
+    font-size: 4rem;
+    color: hsl(158, 36%, 37%);
+
+}
+
+.principal-precios :nth-child(2){
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    text-decoration-line: line-through;
+    padding: 2.2rem;
+}
+
+.principal-btn {
+   display: flex;
+    background-color: hsl(158, 36%, 37%);;
+   justify-content: center;
+   height: 6rem;
+   padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.btn{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
